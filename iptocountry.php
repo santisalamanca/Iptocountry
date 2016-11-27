@@ -22,7 +22,7 @@ include("cfg.php");
     // Eg: Option 1 
     $ip=$_REQUEST['ip'];
 
-    $i = ipaddress_to_uint32($ip);
+  
     $ip_block=strstr($ip, '.', true);
     $ip_to_search = ipaddress_to_uint32($ip);
 
